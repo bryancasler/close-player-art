@@ -13,7 +13,7 @@
    "readme": "https://raw.githubusercontent.com/gsimon2/close-player-art/main/README.md",
    "bugs": "https://github.com/gsimon2/close-player-art/issues",
    "changelog": "https://github.com/gsimon2/close-player-art/releases",
-   "version": "1.1.2",
+   "version": "1.1.3",
    "esmodules": ["scripts/main.js"],
    "languages": [
       {
@@ -24,11 +24,11 @@
       }
    ],
    "socket": true,
-   "manifest": "https://github.com/gsimon2/close-player-art/releases//download/1.1.2/module.json",
-   "download": "https://github.com/gsimon2/close-player-art/releases/download/1.1.2/module.zip",
+   "manifest": "https://github.com/gsimon2/close-player-art/releases//download/1.1.3/module.json",
+   "download": "https://github.com/gsimon2/close-player-art/releases/download/1.1.3/module.zip",
    "id": "close-player-art",
    "compatibility": {
       "minimum": "10.0",
-      "verified": "10.286"
+      "verified": "12.325"
    }
 }
