@@ -7,4 +7,4 @@ A simple module for [FoundryVtt](https://foundryvtt.com/) that adds a configurab
 
 -------------------- Player Screen  -------------------------------------------- Gm Screen --------------------
 
-![close-art](close-art.gif)
+![close-art](https://github.com/user-attachments/assets/84da7f10-9bc2-4787-9fa1-ff5df4bdc782)
