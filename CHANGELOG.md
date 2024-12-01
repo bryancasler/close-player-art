@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.2.0] - 2024-XX-XX
+## [1.2.0] - 2024-11-30
 ### Added
 - Complete UI overhaul with new art control dialog
 - Image sharing functionality via URL or file picker
