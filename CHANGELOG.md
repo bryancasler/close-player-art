@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.1] - 2024-11-30
+### Changed
+- Updated repository name to player-art-controls
+- Updated module ID to match new repository name
+- Updated all repository URLs
+
 ## [1.2.0] - 2024-11-30
 ### Added
 - Complete UI overhaul with new art control dialog

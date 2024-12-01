@@ -9,10 +9,10 @@
          "flags": {}
       }
    ],
-   "url": "https://github.com/bryancasler/close-player-art",
-   "readme": "https://raw.githubusercontent.com/bryancasler/close-player-art/main/README.md",
-   "bugs": "https://github.com/bryancasler/close-player-art/issues",
-   "changelog": "https://github.com/bryancasler/close-player-art/releases",
+   "url": "https://github.com/bryancasler/player-art-controls",
+   "readme": "https://raw.githubusercontent.com/bryancasler/player-art-controls/main/README.md",
+   "bugs": "https://github.com/bryancasler/player-art-controls/issues",
+   "changelog": "https://github.com/bryancasler/player-art-controls/releases",
    "version": "1.2.0",
    "compatibility": {
       "minimum": "10",
@@ -29,7 +29,7 @@
       }
    ],
    "socket": true,
-   "manifest": "https://github.com/bryancasler/close-player-art/releases/download/1.2.0/module.json",
-   "download": "https://github.com/bryancasler/close-player-art/releases/download/1.2.0/module.zip",
-   "id": "close-player-art"
+   "manifest": "https://github.com/bryancasler/player-art-controls/releases/download/1.2.0/module.json",
+   "download": "https://github.com/bryancasler/player-art-controls/releases/download/1.2.0/module.zip",
+   "id": "player-art-controls"
 }
