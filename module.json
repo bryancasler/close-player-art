@@ -1,5 +1,5 @@
 {
-   "title": "Player Art Controls",
+   "title": "Player Art Controls (Image Management)",
    "description": "Adds a configurable hot key (Default ` - backtick) for the GM to close open image popouts on player screens and share images with players",
    "authors": [
       {
@@ -13,7 +13,7 @@
    "readme": "https://raw.githubusercontent.com/bryancasler/player-art-controls/main/README.md",
    "bugs": "https://github.com/bryancasler/player-art-controls/issues",
    "changelog": "https://github.com/bryancasler/player-art-controls/releases",
-   "version": "1.2.3",
+   "version": "1.2.4",
    "compatibility": {
       "minimum": "10",
       "verified": "11",
@@ -29,7 +29,7 @@
       }
    ],
    "socket": true,
-   "manifest": "https://raw.githubusercontent.com/bryancasler/player-art-controls/refs/heads/main/module.json",
-   "download": "https://github.com/bryancasler/player-art-controls/archive/refs/heads/main.zip",
+   "manifest": "https://github.com/bryancasler/player-art-controls/releases/download/1.2.4/module.json",
+   "download": "https://github.com/bryancasler/player-art-controls/releases/download/1.2.4/module.zip",
    "id": "player-art-controls"
 }

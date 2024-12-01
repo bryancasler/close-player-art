@@ -2,7 +2,6 @@
 
 ![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/gsimon2/player-art-controls/latest/module.zip)
 ![Foundry Version](https://img.shields.io/badge/dynamic/json?color=orange&label=Foundry%20Version&query=compatibility.verified&url=https%3A%2F%2Fraw.githubusercontent.com%2Fgsimon2%2Fplayer-art-controls%2Fmain%2Fmodule.json)
-[![](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-%243-blue)](https://www.buymeacoffee.com/gsimon2)
 
 A comprehensive module for [FoundryVTT](https://foundryvtt.com/) that provides GMs with tools to manage player art displays and share images efficiently.
 
@@ -70,29 +69,26 @@ The module includes comprehensive error handling for:
   - Foundry v11.x
   - Foundry v12.x (early testing)
 
-The module uses core Foundry features that have remained stable across these versions:
-- Socket communications
-- Image popouts
-- Dialog system
-- Scene controls
+## Support & Credits
 
-## Support
+This module is a fork of the original "Close Player Art" module by Glen Simon. If you find this module helpful, consider supporting the original author:
 
-If you find this module helpful, consider buying me a coffee:
+[![Buy Glen A Coffee](https://img.shields.io/badge/Buy%20Glen%20A%20Coffee-%243-blue)](https://www.buymeacoffee.com/gsimon2)
 
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-%243-blue)](https://www.buymeacoffee.com/gsimon2)
+## Authors
+
+- Original Module: Glen Simon (glen.a.simon@gmail.com)
+- Enhanced Fork: Bryan Casler (bryan.casler@gmail.com)
+
+The enhanced version builds upon the original module's foundation by adding image sharing capabilities, recent history, and an improved user interface while maintaining the core functionality of closing player art.
 
 ## Issues and Suggestions
 
-If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/gsimon2/player-art-controls/issues) on the GitHub repository.
+If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/bryancasler/player-art-controls/issues) on the GitHub repository.
 
 ## License
 
 This project is licensed under the GNU General Public License v3.0 (GPLv3).
-
-## Author
-
-Created by Glen Simon (glen.a.simon@gmail.com)
 
 ## Changelog
 

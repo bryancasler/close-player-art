@@ -1,5 +1,4 @@
 import constants from "../Constants.js";
-import { registerSettings } from "./settings.js";
 import { showArtControlDialog } from "./artControls.js";
 
 const socketName = `module.${constants.modName}`;
@@ -26,12 +25,40 @@ const closeImagePopout = () => {
     }
 };
 
-Hooks.on("init", () => {
-    try {
-        registerSettings();
-    } catch (error) {
-        console.error("Player Art Controls | Error registering settings:", error);
-    }
+Hooks.once('init', () => {
+    console.log('Player Art Controls | Initializing');
+    
+    game.settings.register(constants.modName, "hotkey", {
+        name: `${constants.modName}.settings.hotkey.name`,
+        hint: `${constants.modName}.settings.hotkey.hint`,
+        scope: "world",
+        config: true,
+        default: "`",
+        type: String,
+    });
+
+    game.settings.register(constants.modName, "maxRecentImages", {
+        name: `${constants.modName}.settings.maxRecentImages.name`,
+        hint: `${constants.modName}.settings.maxRecentImages.hint`,
+        scope: "world",
+        config: true,
+        default: 9,
+        type: Number,
+        range: {
+            min: 1,
+            max: 20,
+            step: 1
+        }
+    });
+
+    game.settings.register(constants.modName, "enableHistory", {
+        name: `${constants.modName}.settings.enableHistory.name`,
+        hint: `${constants.modName}.settings.enableHistory.hint`,
+        scope: "world",
+        config: true,
+        default: true,
+        type: Boolean
+    });
 });
 
 Hooks.on("ready", () => {

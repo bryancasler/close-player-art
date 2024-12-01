@@ -41,18 +41,6 @@ function createThumbnailGrid() {
     ).join("");
 }
 
-function debounce(func, wait) {
-    let timeout;
-    return function executedFunction(...args) {
-        const later = () => {
-            clearTimeout(timeout);
-            func(...args);
-        };
-        clearTimeout(timeout);
-        timeout = setTimeout(later, wait);
-    };
-}
-
 async function imageMessage(url, dialog) {
     try {
         if (!url) {
@@ -67,7 +55,7 @@ async function imageMessage(url, dialog) {
         dialog.close();
     } catch (error) {
         ui.notifications.error(`${game.i18n.localize("player-art-controls.notifications.shareError")}: ${error.message}`);
-        console.error("Player Art Controls | Error sharing image:", error);
+        console.error(error);
     }
 }
 
@@ -159,28 +147,18 @@ export function showArtControlDialog() {
         render: (html) => {
             // Close all images button
             html.find("#close-all-images").on("click", () => {
-                try {
-                    const success = closeImagePopout();
-                    game.socket.emit(socketName, { userId: game.user.id });
-                    if (success) {
-                        ui.notifications.info(game.i18n.localize("player-art-controls.notifications.closeSuccess"));
-                    }
-                } catch (error) {
-                    console.error("Player Art Controls | Error in close all:", error);
-                }
+                closeImagePopout();
+                game.socket.emit(socketName, { userId: game.user.id });
+                ui.notifications.info(game.i18n.localize("player-art-controls.notifications.closeSuccess"));
             });
 
-            // URL input handler with debounce
-            html.find("[name=url]").on("input", debounce(async (event) => {
-                try {
-                    const url = event.target.value;
-                    if (url) {
-                        await imageMessage(url, d);
-                    }
-                } catch (error) {
-                    console.error("Player Art Controls | Error in URL input:", error);
+            // URL input handler
+            html.find("[name=url]").on("input", async (event) => {
+                const url = event.target.value;
+                if (url) {
+                    await imageMessage(url, d);
                 }
-            }, 300));
+            });
 
             // File picker handler
             html.find("#filepicker-button").on("click", () => {
