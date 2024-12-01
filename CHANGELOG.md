@@ -1,13 +1,10 @@
 # Changelog
 
-## [1.2.1] - 2024-11-30
-### Changed
+## [1.2.2] - 2024-11-30
+### Added and Changed
 - Updated repository name to player-art-controls
 - Updated module ID to match new repository name
 - Updated all repository URLs
-
-## [1.2.0] - 2024-11-30
-### Added
 - Complete UI overhaul with new art control dialog
 - Image sharing functionality via URL or file picker
 - Recent images history feature

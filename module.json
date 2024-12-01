@@ -13,7 +13,7 @@
    "readme": "https://raw.githubusercontent.com/bryancasler/player-art-controls/main/README.md",
    "bugs": "https://github.com/bryancasler/player-art-controls/issues",
    "changelog": "https://github.com/bryancasler/player-art-controls/releases",
-   "version": "1.2.0",
+   "version": "1.2.2",
    "compatibility": {
       "minimum": "10",
       "verified": "11",
@@ -29,7 +29,7 @@
       }
    ],
    "socket": true,
-   "manifest": "https://github.com/bryancasler/player-art-controls/releases/download/1.2.0/module.json",
-   "download": "https://github.com/bryancasler/player-art-controls/releases/download/1.2.0/module.zip",
+   "manifest": "https://github.com/bryancasler/player-art-controls/releases/download/1.2.2/module.json",
+   "download": "https://github.com/bryancasler/player-art-controls/releases/download/1.2.2/module.zip",
    "id": "player-art-controls"
 }
