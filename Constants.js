@@ -1,5 +1,5 @@
 const constants = {
-    modName: 'close-player-art'
+    modName: 'player-art-controls'
 };
 
 export default constants;

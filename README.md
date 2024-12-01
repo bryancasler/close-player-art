@@ -1,4 +1,4 @@
-# Close Player Art
+# Player Art Controls
 
 ![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/gsimon2/close-player-art/latest/module.zip)
 ![Foundry Version](https://img.shields.io/badge/dynamic/json?color=orange&label=Foundry%20Version&query=compatibility.verified&url=https%3A%2F%2Fraw.githubusercontent.com%2Fgsimon2%2Fdramatic-rolls%2Fmain%2Fmodule.json)
@@ -20,7 +20,7 @@ A simple module for [FoundryVTT](https://foundryvtt.com/) that adds a configurab
 
 1. In the Foundry VTT setup screen, go to the "Add-on Modules" tab
 2. Click "Install Module"
-3. Search for "Close Player Art" or paste this manifest URL: 
+3. Search for "Player Art Controls" or paste this manifest URL: 
    `https://github.com/gsimon2/close-player-art/releases/latest/download/module.json`
 4. Click "Install"
 
