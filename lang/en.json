@@ -4,7 +4,28 @@
             "hotkey": {
                 "name": "Hotkey",
                 "hint": "Binds the close player art action to this key. Default `"
+            },
+            "maxRecentImages": {
+                "name": "Maximum Recent Images",
+                "hint": "Maximum number of images to keep in the recent images history"
+            },
+            "enableHistory": {
+                "name": "Enable History",
+                "hint": "Enable or disable the recent images history feature"
             }
+        },
+        "dialog": {
+            "title": "Player Art Controls",
+            "closeAll": "Close All Player Images",
+            "urlPlaceholder": "Paste Image URL Here",
+            "filePicker": "File Picker",
+            "recentImages": "Recent Images"
+        },
+        "notifications": {
+            "closeSuccess": "Closed all player images",
+            "shareError": "Failed to share image",
+            "invalidUrl": "Please provide a valid URL or select a file",
+            "dialogError": "Error showing art control dialog"
         }
     }
 }
